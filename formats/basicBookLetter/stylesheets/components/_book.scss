@@ -1,0 +1,17 @@
+.book {
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: center;
+	grid-column-gap: 6px;
+	grid-row-gap: 6px;
+
+	@media (max-width: 1675px) {
+		display: flex;
+		flex-direction: column;
+
+		.page {
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+}

@@ -1,0 +1,11 @@
+@media print {
+
+  html {
+		font-size: 16px;
+	}
+
+	pagebreak + * {
+		margin-top: 0 !important;
+		break-after: auto !important;
+	}
+}

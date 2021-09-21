@@ -1,0 +1,17 @@
+.layout {
+	column-gap: 30px;
+	margin-top: 0;
+	margin-bottom: 15px;
+
+	&.columns-2 {
+		column-count: 2;
+	}
+
+	&.columns-3 {
+		column-count: 3;
+	}
+
+	&.columns-4 {
+		column-count: 4;
+	}
+}

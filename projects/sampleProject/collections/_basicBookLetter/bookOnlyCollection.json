@@ -1,0 +1,11 @@
+{
+	"output": {
+		"filename": "book-only-collection",
+		"version": "1.0.0"
+	},
+	"contents": [
+		"file02",
+		"file01",
+		"file03"
+	]
+}

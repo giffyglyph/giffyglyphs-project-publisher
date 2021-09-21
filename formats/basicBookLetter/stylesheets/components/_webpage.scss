@@ -1,0 +1,23 @@
+.webpage__content {
+	padding: 15px;
+	flex-grow: 1;
+
+	> *:first-child {
+		margin-top: 0;
+	}
+
+	> *:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.webpage__footer {
+	background: black;
+	padding: 60px 30px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
