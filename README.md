@@ -9,8 +9,8 @@
 
 Turn markdown fragments into fully-featured HTML files, PDFs, PNGs, ZIPs, and more with **Giffyglyph's Project Publisher**!
 
-* [Read the Changelog](https://github.com/giffyglyph/giffyglyphs-project-publisher/blob/master/docs/CHANGELOG.md) 
-* [Read the Tutorial Handbook](https://github.com/giffyglyph/giffyglyphs-project-publisher/blob/master/docs/publisher-handbook_en.pdf) 
+* [Read the Changelog](https://github.com/giffyglyph/giffyglyphs-project-publisher/blob/master/CHANGELOG.md) 
+* [Read the Tutorial Handbook](https://github.com/giffyglyph/giffyglyphs-project-publisher/blob/master/publisher-handbook_en.pdf) 
 
 ## Getting Started
 
