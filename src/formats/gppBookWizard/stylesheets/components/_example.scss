@@ -1,0 +1,28 @@
+.example {
+	padding: var(--line-height);
+	position: relative;
+	box-sizing: border-box;
+	background: var(--color-primary-tint-5);
+
+	.example__body {
+
+		> :first-child {
+			margin-top: 0;
+		}
+
+		> :last-child {
+			margin-bottom: 0;
+		}
+
+		hr {
+			border-color: var(--color-primary-tint-4);
+			margin-top: calc(var(--line-height) / -2);
+			margin-bottom: calc((var(--line-height) / 2) - 1px);
+
+			&:first-child,
+			&:last-child {
+				display: none;
+			}
+		}
+	}
+}

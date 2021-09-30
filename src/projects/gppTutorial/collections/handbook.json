@@ -1,0 +1,13 @@
+{
+	"filename": "publisher-handbook",
+	"contents": [
+		"front_cover",
+		"toc",
+		"introduction",
+		"getting_started",
+		"markdown",
+		"projects",
+		"formats",
+		"back_cover"
+	]
+}

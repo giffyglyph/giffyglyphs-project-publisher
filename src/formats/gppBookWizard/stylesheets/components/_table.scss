@@ -1,0 +1,39 @@
+div.table {
+
+	.table__header {
+		background: var(--color-primary-tint-1);
+		color: white;
+		padding: 8px 4px 7px;
+		border-bottom: 1px solid var(--color-primary-tint-2)
+	}
+
+	.table__title {
+		margin: 0;
+	}
+}
+
+div.table table,
+table.table {
+	border-spacing: 0;
+	width: 100%;
+
+	th,
+	td {
+		padding: 0 4px;
+		text-align: left;
+		vertical-align: top;
+	}
+
+	thead {
+		background: var(--color-primary-tint-1);
+		color: white;
+	}
+
+	tbody tr:nth-child(odd) {
+		background: var(--color-primary-tint-5);
+	}
+
+	tbody tr:nth-child(even) {
+		background: var(--color-primary-tint-4);
+	}
+}

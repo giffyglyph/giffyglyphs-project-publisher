@@ -1,0 +1,8 @@
+:root {
+	@include primary-colors(#096bc7);
+	@include secondary-colors(#c76e09);
+	--color-page-bg: white;
+	--line-height: 16px;
+	--page-height: 1056px;
+	--page-width: 816px;
+}

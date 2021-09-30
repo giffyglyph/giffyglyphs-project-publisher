@@ -1,0 +1,10 @@
+colbreak {
+	display: block;
+	break-after: column;
+	height: 0;
+	margin: 0 !important;
+
+	 + * {
+		 margin-top: var(--line-height) !important;
+	 }
+}

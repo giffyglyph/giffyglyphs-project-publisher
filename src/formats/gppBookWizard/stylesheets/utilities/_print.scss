@@ -1,0 +1,32 @@
+@media print {
+
+	.book {
+		display: block;
+		padding: 0;
+		margin: 0;
+		filter: none;
+
+		.page {
+			margin: 0;
+		}
+	}
+
+	.webpage__content {
+		padding: 0;
+	}
+
+	.webpage__header,
+	.webpage__footer {
+		display: none;
+	}
+
+	html {
+		margin: 0;
+		padding: 0;
+		background: none;
+	}
+
+	* {
+		transition: none !important;
+	}
+}

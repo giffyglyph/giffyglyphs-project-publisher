@@ -1,0 +1,50 @@
+.cover--front {
+
+	h1 {
+		background: var(--color-primary-shade-2);
+		margin: 0 0 20px;
+		color: white;
+		margin-left: calc(var(--line-height) * -4);
+		margin-right: calc(var(--line-height) * -4);
+		padding: 30px 90px;
+		font-family: 'Open Sans Condensed';
+		font-size: 75px;
+		line-height: 85px;
+	}
+
+	p {
+		flex-grow: 1;
+		font-size: 25px;
+	}
+
+	.icons {
+		display: flex;
+		justify-content: center;
+		font-size: 25px;
+    font-weight: bolder;
+		align-items: center;
+		padding: 60px;
+		border: 5px solid white;
+		border-radius: 20px;
+
+		> *:not(:last-child) {
+			margin-right: 3px;
+		}
+
+		.fas {
+			margin: 0 10px;
+			font-size: 40px;
+		}
+	}
+
+	.icon {
+    background: white;
+    color: var(--color-primary-base);
+		height: 90px;
+    width: 75px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 20%, 75% 0%);
+	}
+}

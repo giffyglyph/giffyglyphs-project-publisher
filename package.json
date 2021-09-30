@@ -1,13 +1,13 @@
 {
   "name": "giffyglyphs-project-publisher",
-  "version": "1.0.0",
-  "description": "Combine your markdown projects with output formats to create fully-featured HTMl, PDFs, PNGs, JPGs, and more.",
+  "version": "2.0.0",
+  "description": "Turn your markdown projects into fully-featured HTML, PDFs, PNGs, JPGs, and more.",
   "type": "module",
   "homepage": "https://github.com/giffyglyph/giffyglyphs-project-publisher",
   "bugs": "https://github.com/giffyglyph/giffyglyphs-project-publisher/issues",
-  "author": "Giffyglyph",
-  "license": "ISC",
+  "author": "Giffyglyph <giffyglyph@gmail.com> (https://giffyglyph.com/)",
+  "license": "GPL-3.0",
   "dependencies": {
-    "giffyglyphs-markdown-maker": "^1.0.1"
+    "giffyglyphs-markdown-maker": "^2.0.2"
   }
 }

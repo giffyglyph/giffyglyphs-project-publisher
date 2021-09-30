@@ -1,0 +1,19 @@
+.page--getting-started {
+
+	pre {
+		padding: calc(var(--line-height) / 2);
+		text-align: center;
+		background: var(--color-primary-tint-5);
+	}
+
+	.table--build table,
+	.table--export table,
+	.table--clean table,
+	.table--watch table,
+	.table--check table {
+
+		td:nth-child(1) {
+			width: 44%;
+		}
+	}
+}

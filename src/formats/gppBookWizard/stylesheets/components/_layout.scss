@@ -1,0 +1,29 @@
+.layout {
+	column-gap: calc(var(--line-height) * 3);
+
+	&.wide {
+		column-span: all;
+
+		&:first-child + * {
+			margin-top: var(--line-height);
+		}
+	}
+
+	&.columns-2 {
+		column-count: 2;
+	}
+
+	&.columns-3 {
+		column-count: 3;
+	}
+
+	&.columns-4 {
+		column-count: 4;
+	}
+
+	&.fixed-bottom {
+		position: absolute;
+		bottom: 0;
+		margin: 0 !important;
+	}
+}
